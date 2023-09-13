@@ -24,9 +24,9 @@ class BookApi(context: Context) {
 
         books.add(
             Book(
-                "Doxology",
-                "Nell Zink",
-                450,
+                "Kod Buzar",
+                "Uolter Ayzekson",
+                850,
                 "\n" + "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat ac felis eget condimentum. Nunc fermentum velit et risus accumsan, at elementum metus luctus. Aliquam a nunc non leo placerat cursus. Sed et turpis sit amet libero volutpat luctus.",
                 4.7,
                 "9.6 mb",
@@ -40,7 +40,7 @@ class BookApi(context: Context) {
         books.add(
             Book(
                 "The Final Revival of Opal & Nev",
-                "Dawnie Walton",
+                "Yapon zobiti",
                 237,
                 "\n" + "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat ac felis eget condimentum. Nunc fermentum velit et risus accumsan, at elementum metus luctus. Aliquam a nunc non leo placerat cursus. Sed et turpis sit amet libero volutpat luctus.",
                 4.9,
@@ -69,7 +69,7 @@ class BookApi(context: Context) {
 
         books.add(
             Book(
-                "The Vallentine's Hate",
+                "Harry Potter",
                 "Sidney Halston",
                 235,
                 "\n" + "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat ac felis eget condimentum. Nunc fermentum velit et risus accumsan, at elementum metus luctus. Aliquam a nunc non leo placerat cursus. Sed et turpis sit amet libero volutpat luctus.",
@@ -84,8 +84,8 @@ class BookApi(context: Context) {
 
         books.add(
             Book(
-                "The Commitments",
-                "Roddy Doyle ",
+                "Ibtido",
+                "Den Braun ",
                 235,
                 "\n" + "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat ac felis eget condimentum. Nunc fermentum velit et risus accumsan, at elementum metus luctus. Aliquam a nunc non leo placerat cursus. Sed et turpis sit amet libero volutpat luctus.",
                 4.2,
@@ -99,8 +99,8 @@ class BookApi(context: Context) {
 
         books.add(
             Book(
-                "Keeper of Secrets",
-                "Denise Grover",
+                "Javdarzordagi xaloskor",
+                "Jerom Selinjer",
                 235,
                 "\n" + "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat ac felis eget condimentum. Nunc fermentum velit et risus accumsan, at elementum metus luctus. Aliquam a nunc non leo placerat cursus. Sed et turpis sit amet libero volutpat luctus.",
                 4.3,
