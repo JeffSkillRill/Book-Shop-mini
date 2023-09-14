@@ -2,21 +2,25 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/home"
+        android:iconTint="@color/mainColor"
         android:icon="@drawable/home"
         android:title="Home" />
 
     <item
         android:id="@+id/purchased"
+        android:iconTint="@color/mainColor"
         android:icon="@drawable/saved_selected"
         android:title="Saved" />
 
 
     <item
         android:id="@+id/wishlist"
+        android:iconTint="@color/mainColor"
         android:icon="@drawable/wishlist"
         android:title="Wishlist" />
     <item
         android:id="@+id/account"
+        android:iconTint="@color/mainColor"
         android:icon="@drawable/account"
         android:title="Account" />
 </menu>

@@ -24,8 +24,8 @@ class Nav_header : Fragment() {
         val userJson = shared.getString("active_user", null)
         val user: User = gson.fromJson(userJson, User::class.java)
 
-        binding.personName.text = user.username
-        binding.personEmail.text = user.email
+        binding.personNamen.text = user.username
+        binding.personEmailn.text = user.email
 
         return binding.root
     }

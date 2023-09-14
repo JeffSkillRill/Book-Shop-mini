@@ -51,11 +51,8 @@ class BookDetailFragment : Fragment() {
             findNavController().popBackStack()
         }
 
-        binding.bookName.text = book.name
         binding.bookImage.setImageResource(book.img)
-        binding.bookAuthorName.text = book.author
         binding.mb.text = book.size
-        binding.genreName.text = book.genreName
         binding.pageCount.text = book.pages.toString()
 
         binding.saved.setOnClickListener {
