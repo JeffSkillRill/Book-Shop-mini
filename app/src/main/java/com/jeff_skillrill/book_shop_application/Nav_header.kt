@@ -19,6 +19,9 @@ class Nav_header : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         val binding = NavHeaderBinding.inflate(inflater, container, false)
+
+
+
         shared = requireContext().getSharedPreferences("shared", AppCompatActivity.MODE_PRIVATE)
         val gson = Gson()
         val userJson = shared.getString("active_user", null)

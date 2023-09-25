@@ -34,7 +34,7 @@ class SplashFragment : Fragment() {
             else {
                 findNavController().navigate(R.id.action_splashFragment_to_mainFragment)
             }
-        }, 3000)
+        }, 3800)
         return binding.root
     }
 }

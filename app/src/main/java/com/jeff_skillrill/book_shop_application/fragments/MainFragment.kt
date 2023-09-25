@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
@@ -28,8 +29,11 @@ class MainFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val binding = FragmentMainBinding.inflate(inflater, container, false)
+        val navigationView = binding.navView
         loadFragment(HomeFragment())
 
+        var navHeader = navigationView.getHeaderView(0)
+        navHeader.findViewById<TextView>(R.id.personNamen).text = "Ja'far"
 
 
 
@@ -56,6 +60,8 @@ class MainFragment : Fragment() {
                 }
             }
         }
+
+
         return binding.root
     }
 

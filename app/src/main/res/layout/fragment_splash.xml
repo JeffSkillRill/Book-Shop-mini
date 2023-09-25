@@ -24,8 +24,8 @@
             android:layout_marginTop="5dp"
             android:adjustViewBounds="true"
             app:lottie_autoPlay="true"
-            app:lottie_loop="true"
-            app:lottie_rawRes="@raw/book_animation" />
+            
+            app:lottie_rawRes="@raw/progress_bar" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -36,18 +36,5 @@
             android:textSize="40sp" />
 
     </LinearLayout>
-
-    <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/lottie"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
-        android:layout_marginBottom="25dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:lottie_autoPlay="true"
-        app:lottie_colorFilter="@color/mainColor"
-        app:lottie_loop="true"
-        app:lottie_rawRes="@raw/loader" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
